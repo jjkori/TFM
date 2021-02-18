@@ -1,3 +1,8 @@
 Cargar un archivo en formato .csv (archivos de texto separados por coma de Word). 
-Las columnas deben ubicarse de la siguiente manera, de izquierda a derecha : longitud, latitud, nombre, variable1, variable2, variableN).
-Por defecto, se mapeará la tercera columna.
+Si bien el orden de las columnas no afecta el resultado, por defecto se guardaran solo las columnas con los siguientes nombres : nombre, mos, arc, pext, altitud, lon, lat, comentario
+Por defecto, se mapeará la columna llamada pext
+
+nombre;mos;arc;pext;altitud;lon;lat
+1A;1.59;;36.32;393.28;-64.00408978;-31.48148023
+1B;1.57;;47.15;393.12;-64.00357502;-31.48156543
+1C;1.54;;37.89;393.22;-64.00306025;-31.48165063
