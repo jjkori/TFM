@@ -1,0 +1,3 @@
+Cargar un archivo en formato .csv (archivos de texto separados por coma de Word). 
+Las columnas deben ubicarse de la siguiente manera, de izquierda a derecha : longitud, latitud, nombre, variable1, variable2, variableN).
+Por defecto, se mapeará la tercera columna.
