@@ -1,6 +1,10 @@
 Cargar un archivo en formato .csv (archivos de texto separados por coma de Word). 
-Si bien el orden de las columnas no afecta el resultado, por defecto se guardaran solo las columnas con los siguientes nombres : nombre, mos, arc, pext, altitud, lon, lat, comentario
-Por defecto, se mapeará la columna llamada pext
+Si bien el orden de las columnas no afecta el resultado, por defecto se guardaran solo las columnas que se pensaron en el foromularo para almacenar los datos de longitud, latitud, nombre de la muestra, comentarios sobre la muestra, contenido de materia organica, contenido de arcilla, contenido de fosforo extractable y altitud del sitio,  con los siguientes nombres de columna (DEBEN SER LOS NOMBRES DE LAS COLUMNAS) respectivamente:  lon, lat, nombre, comentariomos, arc, pext, altitud.
+En futura version, se podra cargar cualquier columna.
+Por defecto, se mapeará la columna llamada pext.
+
+
+Abajo se coloca como ejemplo como se ve un archivo de prueba (pruebadb.csv) al ser abierto por el bloc de notas en modo de texto plano:
 
 nombre;mos;arc;pext;altitud;lon;lat
 1A;1.59;;36.32;393.28;-64.00408978;-31.48148023
